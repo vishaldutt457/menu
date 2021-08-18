@@ -1,0 +1,94 @@
+.page{
+    display: flex;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar_left{
+    flex:0.2;
+    padding: 80px;
+}
+
+.sidebar_left>h5{
+    color:gray;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.sidebar_left>button{
+    color: white;
+    background-color: red;
+    height: 35px;
+    width: 90px;
+    border-radius: 25px;
+    border: 1px solid red;
+}
+
+.sidebar_right{
+    display: flex;
+    flex-direction: column;
+    flex:0.8;
+    background-color: whitesmoke;
+}
+
+.body_upper{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.body_upper>h1{
+    font-size: 60px;
+   flex: 1;
+   max-width: 80vw;
+}
+
+.body_upper2{
+    margin-right: 280px;
+
+}
+
+.body_upper>p{
+   color: gray;
+}
+
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    background: red;
+   
+  }
+
+
+.body_down{
+    display: flex;
+}
+
+.body_downFood{
+    border:2px solid black;
+    border-radius: 20px;
+    margin-right: 50px;
+    min-height: 200px;
+    min-width: 140px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.16);
+}
+
+.body_downFood>img{
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 80px;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    margin-right: 8px;
+}
+
+.body_downFood>p{
+    text-align: center;
+    font-weight: 900;
+}
